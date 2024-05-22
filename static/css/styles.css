@@ -77,8 +77,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #64a19d;
-  --bs-link-hover-color: #50817e;
+  --bs-link-color: #000706;
+  --bs-link-hover-color: #3a4443;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #faf4e0;
 }
@@ -11069,7 +11069,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 95%, darkgray 100%), url("/static/assets/img/White_Office_Scaled.jpeg");
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 95%, #000 100%), url("/static/assets/img/Hero_Image.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11113,8 +11113,8 @@ body {
     background-clip: text;
     color: darkgray; /* Make the text color transparent to show the gradient */
   }
-  }
 }
+
 
 .about-section {
   padding-top: 10rem;
@@ -11125,6 +11125,7 @@ body {
 }
 
 .projects-section {
+    background: linear-gradient(to top bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 95%, #000 100%);
   padding: 10rem 0;
 }
 .projects-section .featured-text {
