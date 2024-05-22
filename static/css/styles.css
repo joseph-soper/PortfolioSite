@@ -561,6 +561,14 @@ progress {
   }
 }
 
+.header-fix {
+  position: absolute;
+  display: flex !important;
+  bottom: 13%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -643,6 +651,7 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+  bottom: 25%;
 }
 
 @media (min-width: 576px) {
