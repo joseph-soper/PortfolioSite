@@ -564,7 +564,7 @@ progress {
 .header-fix {
   position: absolute;
   display: flex !important;
-  bottom: 13%;
+  top: 50%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -8257,6 +8257,10 @@ textarea.form-control-lg {
 .text-white-50 {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.text-medium {
+  font-size: 125%;
 }
 
 .text-reset {
