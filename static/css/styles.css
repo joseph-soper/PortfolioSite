@@ -8236,7 +8236,7 @@ textarea.form-control-lg {
 
 .text-white {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  color: teal !important;
 }
 
 .text-body {
@@ -11094,13 +11094,14 @@ body {
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
-  -webkit-text-fill-color: darkgray;
+  -webkit-text-fill-color: teal;
   -webkit-background-clip: text;
           background-clip: text;
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
   font-size: 1rem;
+  -webkit-text-fill-color: teal;
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
@@ -11129,9 +11130,11 @@ body {
 }
 
 
+
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  -webkit-text-fill-color: teal;
 }
 .about-section p {
   margin-bottom: 5rem;
