@@ -11148,11 +11148,7 @@ body {
 .projects-section .featured-text {
   padding: 2rem;
 }
-@media (min-width: 992px) {
-  .text-lg-left {
-    text-align: left !important;
-  }
-}
+
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
